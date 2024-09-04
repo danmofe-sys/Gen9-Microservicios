@@ -16,6 +16,7 @@
 	<modules>
 		<module>Gen9-Choferes</module>
 		<module>Gen9-Camiones</module>
+		<module>Gen9-Rutas</module>
 	</modules>
 	
 	
@@ -47,13 +48,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<dependency>
+		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.6.0</version>
 		</dependency>
-		</dependency>
-	</dependencies>
+	
+</dependencies>
 
 
 
